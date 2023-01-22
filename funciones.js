@@ -1,4 +1,4 @@
-const Suscripcion = "Expert"
+/*const Suscripcion = "ExpertDuo"
 
 function suscripciones (tipoDeSuscripcion) {
     if  ( tipoDeSuscripcion == "Free"){
@@ -13,13 +13,27 @@ function suscripciones (tipoDeSuscripcion) {
     return console.log("Puedes tomar casi todos los cursos de Platzi durante un año");
     
    } 
-    if  (tipoDeSuscripcion == "ExpertPlusree"){
+    if  (tipoDeSuscripcion == "ExpertDuo"){
    return console.log("Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año");
        
    }   
 } 
+const res = suscripciones(Suscripcion)*/
 
 
-const res = suscripciones(Suscripcion)
 
 
+let Suscripciones = ["Basic"]
+
+let descripcionSuscrip = {
+    Free:"Solo puedes tomar los cursos gratis",
+    Basic:"Puedes tomar casi todos los cursos de Platzi durante un mes",
+    Expert:"Puedes tomar casi todos los cursos de Platzi durante un año",
+    ExpertDuo:"Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año"
+};
+
+function veryfiSuscr () {
+    console.log(descripcionSuscrip[Suscripciones]);
+   
+} 
+veryfiSuscr();
