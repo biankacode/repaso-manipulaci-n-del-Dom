@@ -23,7 +23,7 @@ const res = suscripciones(Suscripcion)*/
 
 
 
-let Suscripciones = ["Basic"]
+let Suscripciones = ["Expert"]
 
 let descripcionSuscrip = {
     Free:"Solo puedes tomar los cursos gratis",

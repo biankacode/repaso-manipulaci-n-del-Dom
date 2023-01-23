@@ -41,3 +41,17 @@ while (a >= 2) {
     a --;
     
 }
+/*[Running] node "/Users/bianka/Desktop/java Juan DC/tempCodeRunnerFile.js"
+El valor de i es: 10
+El valor de i es: 9
+El valor de i es: 8
+El valor de i es: 7
+El valor de i es: 6
+El valor de i es: 5
+El valor de i es: 4
+El valor de i es: 3
+El valor de i es: 2
+*/ 
+
+let respuesta = prompt("Cuanto es 2 + 2")
+
