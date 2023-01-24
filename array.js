@@ -17,9 +17,36 @@ imprimirElemento(a)
 imprimirElemento(b)
 
 
-let c = [1,2,3] 
+let c = [1,2,3,4,5,] 
 let d = ['a','b','c','d','e']
-function elementosDelArray(myArray) {
-    console.log(myArray[0,1,2]);
+
+function recorrerArray(array) {
+    for (let i = 0; i < array.length; i++) {
+        console.log( array[i]);
+        
+    }
 }
-elementosDelArray(c)
+recorrerArray(c)
+recorrerArray(d)
+
+const carro = {
+    marca: 'jetta',
+    modelo: 'sport',
+    color: 'gris',
+    combustible: 'gasolina'
+}
+
+const carros = {
+    marca: 'jeep',
+    modelo: 'sport',
+    color: 'verde',
+    combustible: 'ibrido'
+}
+
+function imprimirObjeto(objeto) {
+    for (let valor in objeto) {
+        console.log( valor + ": " + carros[valor]);
+        
+    }
+}
+imprimirObjeto(carros)
