@@ -15,3 +15,11 @@ function imprimirElemento (myArray){ //Funccion que imprime el primer elemento d
 }
 imprimirElemento(a)
 imprimirElemento(b)
+
+
+let c = [1,2,3] 
+let d = ['a','b','c','d','e']
+function elementosDelArray(myArray) {
+    console.log(myArray[0,1,2]);
+}
+elementosDelArray(c)
