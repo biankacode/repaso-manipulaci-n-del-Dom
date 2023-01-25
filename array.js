@@ -28,7 +28,18 @@ function recorrerArray(array) {
 }
 recorrerArray(c)
 recorrerArray(d)
-
+/*
+1
+2
+3
+4
+5
+a
+b
+c
+d
+e
+*/ 
 const carro = {
     marca: 'jetta',
     modelo: 'sport',
@@ -50,3 +61,25 @@ function imprimirObjeto(objeto) {
     }
 }
 imprimirObjeto(carros)
+
+const arr = ["free", "basic", "expert", "expertDuo"]
+
+const tipoDeSuscripcion = {
+    free: "Solo puedes tomar los cursos gratis", 
+    basic: "Puedes tomar casi todos los cursos de Platzi durante un mes", 
+    expert:"Puedes tomar casi todos los cursos de Platzi durante un año", 
+    expertDuo: "Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año"
+};
+
+
+        //nom funcion.             parametro, el nombre es indistinto puede ser "perro"
+function consegirTipoDeSuscripcion(suscripcion) {
+        //llamamos a la variable, parametro
+    if (tipoDeSuscripcion[suscripcion]){ //si la variavle tipo suscripcion, toma el tipo de suscripcion que el usuario te de//
+        console.log(tipoDeSuscripcion[suscripcion]);//imprime, el tipo de suscripcion y su valor! 
+        return;
+    }
+    console.log('Este tipo de suscripcion no existe');
+} //si la suscripcion ingresada no esta dentro de los conceptos establecidos regresa que no existe//
+consegirTipoDeSuscripcion("basic") //la funcion recive el argumento
+
