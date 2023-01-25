@@ -83,3 +83,9 @@ function consegirTipoDeSuscripcion(suscripcion) {
 } //si la suscripcion ingresada no esta dentro de los conceptos establecidos regresa que no existe//
 consegirTipoDeSuscripcion("basic") //la funcion recive el argumento
 
+/*          "Easto imprime en consola"
+[Running] 
+
+Puedes tomar casi todos los cursos de Platzi durante un mes
+
+*/

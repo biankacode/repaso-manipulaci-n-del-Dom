@@ -53,5 +53,10 @@ El valor de i es: 3
 El valor de i es: 2
 */ 
 
-let respuesta = prompt("Cuanto es 2 + 2")
+let respuesta //guarda el valor de la respuesta 
+while (respuesta != '4') { // si la reepuesta es diferente de 4 
+    let pregunta = prompt('Cuanto es 2 + 2');// Entonces pregunta de nuevo 
+    respuesta = pregunta //Se rompre el ciclo si repuesta y pregunta son 4 
+}
+
 

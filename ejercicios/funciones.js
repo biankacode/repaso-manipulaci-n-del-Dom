@@ -1,4 +1,4 @@
-/*const Suscripcion = "ExpertDuo"
+const Suscripcion = "ExpertDuo"
 
 function suscripciones (tipoDeSuscripcion) {
     if  ( tipoDeSuscripcion == "Free"){
@@ -18,7 +18,7 @@ function suscripciones (tipoDeSuscripcion) {
        
    }   
 } 
-const res = suscripciones(Suscripcion)*/
+const res = suscripciones(Suscripcion)
 
 
 
@@ -30,6 +30,7 @@ let descripcionSuscrip = {
     Basic:"Puedes tomar casi todos los cursos de Platzi durante un mes",
     Expert:"Puedes tomar casi todos los cursos de Platzi durante un año",
     ExpertDuo:"Tú y alguien más pueden tomar TODOS los cursos de Platzi durante un año"
+
 };
 
 function veryfiSuscr () {
