@@ -32,12 +32,16 @@ pid.innerHTML = "" //eliminar el texto del pàrrafo von un strin vacio
 */
 
 const h1 = document.querySelector('h1');
+const form = document.querySelector('#formulario');
 const input1 = document.getElementById("calculo1");
 const input2 = document.getElementById("calculo2");
 const buton = document.getElementById("btnCalcular");
 const pResult = document.querySelector('#resultado');
 
-function btnOnClick() {
+form.addEventListener('submit' , sumarInputsValue);
+
+function sumarInputsValue(event) {
+    event.preventDefault();
     const sumarInputs = parseInt(input2.value) +  parseInt(input1.value);
-    pResult.innerText = "Resultado: " + sumarInputs;
+    pResult.innerText = "Resultado: " + sumarInputs;//crea un parrafor y el resultado aparece en la pantalla
 }
